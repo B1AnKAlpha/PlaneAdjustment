@@ -24,8 +24,6 @@ This application provides a complete workflow for plane network adjustment, from
 
 ## Screenshots
 
-*(It is highly recommended to add screenshots of your application here)*
-
 **Main Interface (Data & Report)**
 ![Main Application Window](./images/main.png)
 
@@ -48,7 +46,7 @@ This application provides a complete workflow for plane network adjustment, from
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YourUsername/YourRepoName.git
+    git clone https://github.com/B1AnKAlpha/PlaneAdjustment.git
     ```
 2.  **Open the project:**
     -   Navigate to the `Code/` directory.
