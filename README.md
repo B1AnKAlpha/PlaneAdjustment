@@ -27,10 +27,13 @@ This application provides a complete workflow for plane network adjustment, from
 *(It is highly recommended to add screenshots of your application here)*
 
 **Main Interface (Data & Report)**
-`[Image of your main window]`
+![Main Application Window](./images/main.png)
 
 **Network Visualization**
-`[Image of your plot window]`
+![Network Visualization](./images/img.png)
+
+**Database Management**
+![Database Management](./images/database.png)
 
 ---
 
