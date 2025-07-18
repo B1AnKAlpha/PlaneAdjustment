@@ -1,0 +1,59 @@
+# ===================================================================
+# .gitignore for a project with source files directly in a 'Code' subfolder
+# ===================================================================
+
+# -------------------------------------------------------------------
+# General C# / .NET / Visual Studio ignores
+# These rules are robust and work for most project layouts.
+# -------------------------------------------------------------------
+
+# Build output directories inside the 'Code' folder
+# This is the most direct way for your specific structure.
+Code/[Bb]in/
+Code/[Oo]bj/
+
+# User-specific settings and caches
+# The '/**/' part makes sure to catch it even if it's nested deeper.
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / ReSharper specific files
+**/.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet Packages folder and cache files
+# These are restored automatically.
+**/[Pp]ackages/
+!**/[Pp]ackages/build/ # An exception to the rule above
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Other temporary files
+*.log
+*.tlog
+
+# -------------------------------------------------------------------
+# TestData folder - Nothing to ignore by default
+# -------------------------------------------------------------------
+# Test data files (.in2, .txt, etc.) should be versioned.
+# If you generate output files here, add rules below.
+# Example: TestData/*.out
+
+
+# -------------------------------------------------------------------
+# A more general (and often better) alternative to the specific rules above.
+# The following two lines can replace 'Code/[Bb]in/' and 'Code/[Oo]bj/'.
+# They will ignore ANY bin or obj folder, ANYWHERE in the project.
+# This is useful if you add more projects in the future.
+# Uncomment them if you prefer this more flexible approach.
+#
+# **/[Bb]in/
+# **/[Oo]bj/
+#
+# -------------------------------------------------------------------
